@@ -1,5 +1,11 @@
 # @assistant-ui/store
 
+## 0.3.16
+
+### Patch Changes
+
+- [#8518](https://github.com/assistant-ui/assistant-ui/pull/8518) [`e73db99`](https://github.com/assistant-ui/assistant-ui/commit/e73db990bfb860f428da6b5979f07ef416ab3fd4) - fix: runtime hooks keep their clients, runs, streams, queued sends and pending history copies across a fast refresh or a StrictMode replay instead of rebuilding or tearing them down ([@okisdev](https://github.com/okisdev))
+
 ## 0.3.15
 
 ### Patch Changes
